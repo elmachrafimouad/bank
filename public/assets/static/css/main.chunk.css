@@ -108,6 +108,8 @@ code {
   /* background: rgba(237, 0, 230, 0.4); */
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
     0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
 }
 .App h2 {
   display: flex;
@@ -778,15 +780,21 @@ code {
 @media only screen and (max-width: 1600px) {
   .nav-bar {
     padding: 15px 0;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
   }
   .nav-bar .external-link {
     top: -29px;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
   }
 }
 
 @media only screen and (max-width: 1300px) {
   .nav-bar .external-link {
     top: 1.5%;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
   }
   .roadmapdiv {
     width: 100%;
@@ -883,14 +891,20 @@ code {
 
   .nav-bar {
     margin-top: -506px;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
   }
 
   .nav-bar .link-btn span {
     font-size: 12px !important;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
   }
 
   .nav-bar .nav-links {
     margin-bottom: 0;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
   }
 
   .nav-bar .external-link {
@@ -900,6 +914,8 @@ code {
     display: block;
     text-align: right;
     margin-bottom: -40px;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
   }
 
   .side-menu-logo {
@@ -908,11 +924,15 @@ code {
 
   .nav-bar .external-link a {
     display: inline-block;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
   }
 
   .nav-bar .external-link svg {
     width: 45px;
     height: auto;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
   }
 
   .App > div:first-child {
@@ -1053,9 +1073,6 @@ code {
     width: 100%;
     margin-top: -25px;
   }
-    .nav-bar {
-    position: fixed; /* Set the navbar to fixed position */
-    bottom: 0; /* Position the navbar at the bottom of the page */
-    width: 100%; /* Full width */
-  }
+
 }
+
