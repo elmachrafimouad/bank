@@ -48,5 +48,5 @@ function Game() {
     </React.Fragment>
   );
 }
-reload();
+
 export default Game;
