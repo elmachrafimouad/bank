@@ -180,6 +180,7 @@ export default class MainGame extends Phaser.Scene
                 this.input.once('pointerdown', () => this.scene.start('MainMenu'));
             }
         });
+        create ();
     }
 
     levelComplete ()
