@@ -201,6 +201,39 @@ export default class MainGame extends Phaser.Scene
             }
         });
     }
+    
+        sameLevel ()
+    {
+        this.goals.forEach((goal, index) => {
+            goal.setFrame((index).toString());
+            goal.setVisible(true);
+        });
+
+        this.gold.getChildren().forEach((gold) => {
+            gold.setVisible(false);
+            gold.setActive(false);
+        });
+
+        //  Reset everything
+        this.doors.forEach((door) => {
+            door.reset(this.game.getTime());
+        });
+
+        this.goalsComplete = 0;
+
+        //  Change difficulty
+
+      
+
+        //  Change level counter
+        this.level;
+
+        this.levelImage.setFrame(this.level);
+
+        this.sign.setVisible(false);
+
+        this.isPaused = false;
+    }
 
     nextLevel ()
     {
