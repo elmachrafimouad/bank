@@ -205,7 +205,7 @@ export default class MainGame extends Phaser.Scene
         sameLevel ()
     {
         this.goals.forEach((goal, index) => {
-            goal.setFrame((index).toString());
+            goal.setFrame((index +1 ).toString());
             goal.setVisible(true);
         });
 
