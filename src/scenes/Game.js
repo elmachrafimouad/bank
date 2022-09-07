@@ -225,8 +225,7 @@ export default class MainGame extends Phaser.Scene
 
       
 
-        //  Change level counter
-        this.level;
+      
 
         this.levelImage.setFrame(this.level);
 
