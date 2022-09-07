@@ -177,7 +177,7 @@ export default class MainGame extends Phaser.Scene
             ease: 'Bounce.easeOut',
             duration: 1500,
             onComplete: () => {
-                this.input.once('pointerdown', () => this.scene.start('MainMenu'));
+                this.input.once('pointerdown', () => this.sameLevel());
             }
         });
         
