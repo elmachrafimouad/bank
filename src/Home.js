@@ -66,6 +66,10 @@ export default function Home() {
                     
                   <br />
                     <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                   <video width="100%" preload="auto" controls id="idvideo">
                     <source type="video/mp4" src="./assets/static/media/demo.mp4"></source>
                     Votre navigateur ne supporte pas la balise HTML5 video.
@@ -76,6 +80,7 @@ export default function Home() {
                 <div style={{ height: 200 }}>
                   <br />
                   <br />
+                  
                   <h1>with doge stars we are all Famous</h1>
                 </div>
               </div>
