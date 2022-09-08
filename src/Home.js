@@ -53,13 +53,13 @@ export default function Home() {
                     <br />
                   <h1>What is Robber Bank ?</h1>
                   <p className="about-text-p">
-                    <strong>Robber Bank </strong>  is a play to earn on Binance Smart Chain (BSC) 
-                  which is there to give you pleasure by playing above all. Our priority is to
-                  offer a fun experience to players of all levels and allow
-                  them to win money without worrying about losing. 
-                  Robber bank guarantees you a fun experience as well
-                  as a passive income with its tokenomics which prevents you 
-                  from losing your money to play.
+                    <strong>Robber Bank </strong>  is the most engaging game in the world, 
+                  combining suspense, action and simplicity. the bank robber is one of the first real 
+                  free to earn based on a solid ecosystem and real algorithm. Do you want to play, 
+                    enjoy and earn but your are not a good gamer?
+                  No problem! the bank robber is the game for everyone, 
+                    a community driven project with the transparency of 
+                  the dev team and their effort.
                   </p>
                 </div>
                 <div >
