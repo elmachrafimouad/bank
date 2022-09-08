@@ -34,7 +34,7 @@ export default function Home() {
               </div>
               <br />
               <div className="head-line">
-                <h2>
+                <h2 className="tokenomics-title">
                   Hold and earn
                   <br />
                   to
