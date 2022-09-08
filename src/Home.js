@@ -49,6 +49,8 @@ export default function Home() {
               </div>
               <div id="about-us" className="about">
                 <div className="about-text">
+                     <br />
+                    <br />
                   <h1>What is Robber Bank ?</h1>
                   <p className="about-text-p">
                     <strong>Robber Bank </strong>  is a play to earn on Binance Smart Chain (BSC) 
@@ -60,7 +62,7 @@ export default function Home() {
                   from losing your money to play.
                   </p>
                 </div>
-                <div style="width:50px;height:50px">
+                <div style="width:150px;height:150px">
                     
                   <br />
                     <br />
