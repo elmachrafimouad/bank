@@ -64,11 +64,10 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="about-text">
-                  <img
-                    className="gif-img"
-                    src="./assets/static/media/gif.gif"
-                    alt=""
-                  />
+                  <video width="100%" preload="auto" controls id="idvideo">
+                    <source type="video/mp4" src="./assets/static/media/demo.mp4"></source>
+                    Votre navigateur ne supporte pas la balise HTML5 video.
+                  </video>
                 </div>
               </div>
               <div id="price" className="price-div">
