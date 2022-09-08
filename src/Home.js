@@ -58,7 +58,8 @@ export default function Home() {
                   worrying about losing.
                   </p>
                 </div>
-                <div className="about-text">
+                <div>
+                    <div></div>
                   <video width="100%" preload="auto" controls id="idvideo">
                     <source type="video/mp4" src="./assets/static/media/demo.mp4"></source>
                     Votre navigateur ne supporte pas la balise HTML5 video.
