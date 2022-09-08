@@ -49,18 +49,13 @@ export default function Home() {
               </div>
               <div id="about-us" className="about">
                 <div className="about-text">
-                  <h1>What is ShibaPlayer?</h1>
+                  <h1>What is Robber Bank ?</h1>
                   <p className="about-text-p">
-                    <strong>ShibaPlayer</strong> is a community of crypto
-                    enthusiasts who want to make NFT much cooler, we are not
-                    just about money, we are also about fun. Be the owner of the
-                    first NFT collection of famous doge star in the metaverse.
-                    Carefully designed by our talented artist which encompasses
-                    between our memes token and metaverse world. The Xxxsmall
-                    size of the NFT collection will allow the value of our
-                    collection to climb faster. Be among the earlier supporters
-                    of the ShibaPlayer and gain access to our Xsmall NFT
-                    collection.
+                    <strong>Robber Bank </strong>  is a play to earn game which is there 
+                  to give you pleasure by playing above all. 
+                  Our priority is to offer a fun experience to players 
+                  of all levels and allow them to win money without
+                  worrying about losing.
                   </p>
                 </div>
                 <div className="about-text">
