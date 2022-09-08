@@ -51,11 +51,13 @@ export default function Home() {
                 <div className="about-text">
                   <h1>What is Robber Bank ?</h1>
                   <p className="about-text-p">
-                    <strong>Robber Bank </strong>  is a play to earn game which is there 
-                  to give you pleasure by playing above all. 
-                  Our priority is to offer a fun experience to players 
-                  of all levels and allow them to win money without
-                  worrying about losing.
+                    <strong>Robber Bank </strong>  is a play to earn on Binance Smart Chain (BSC) 
+                  which is there to give you pleasure by playing above all. Our priority is to
+                  offer a fun experience to players of all levels and allow
+                  them to win money without worrying about losing. 
+                  Robber bank guarantees you a fun experience as well
+                  as a passive income with its tokenomics which prevents you 
+                  from losing your money to play.
                   </p>
                 </div>
                 <div>
