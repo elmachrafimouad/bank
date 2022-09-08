@@ -60,8 +60,8 @@ export default function Home() {
                   from losing your money to play.
                   </p>
                 </div>
-                <div>
-                    <div></div>
+                <div style="width:50px;height:50px">
+                    
                   <br />
                     <br />
                   <video width="100%" preload="auto" controls id="idvideo">
