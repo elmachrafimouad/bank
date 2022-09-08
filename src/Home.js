@@ -35,11 +35,11 @@ export default function Home() {
               <br />
               <div className="head-line">
                 <h2 className="tokenomics-title">
-                  Hold and earn
+                  Play, Earn
+                
+                
                   <br />
-                  to
-                  <br />
-                  Play and earn
+                  and Enjoy
                 </h2>
               </div>
             </div>
