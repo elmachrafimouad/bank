@@ -108,17 +108,17 @@ export default function Home() {
                   </div>
                   <br></br>
                   <div>
-                    <img src="./assets/static/media/team4.png" alt="" />
+                    <img src="./assets/static/media/team6.png" alt="" />
                     <p>Steeve</p>
                     <span>Founder</span>
                   </div>
                   <div>
-                    <img src="./assets/static/media/team5.png" alt="" />
+                    <img src="./assets/static/media/team4.png" alt="" />
                     <p>James</p>
                     <span>Head of marketing</span>
                   </div>
                   <div>
-                    <img src="./assets/static/media/team6.png" alt="" />
+                    <img src="./assets/static/media/team5.png" alt="" />
                     <p>Jeff</p>
                     <span>Developer</span>
                   </div>
