@@ -108,7 +108,24 @@ export default function Home() {
                     <span>Developer</span>
                   </div>
                 </div>
-              </div>
+                <br></br>
+                <div className="team-wrapper">
+                  <div>
+                    <img src="./assets/static/media/team1.png" alt="" />
+                    <p>Steeve</p>
+                    <span>Founder</span>
+                  </div>
+                  <div>
+                    <img src="./assets/static/media/team2.png" alt="" />
+                    <p>James</p>
+                    <span>Head of marketing</span>
+                  </div>
+                  <div>
+                    <img src="./assets/static/media/team3.png" alt="" />
+                    <p>Jeff</p>
+                    <span>Developer</span>
+                  </div>
+                </div>
               <div className="container">
                 <div className="section-title-wrapper">
                   <h2 className="section-title">Big vision. Great Features.</h2>
