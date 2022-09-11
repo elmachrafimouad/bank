@@ -90,7 +90,23 @@ export default function Home() {
                 <div className="head-line">
                   <h1>Our Team</h1>
                 </div>
-                <div className="team-wrapper">
+                                <div className="team-wrapper">
+                  <div>
+                    <img src="./assets/static/media/team1.png" alt="" />
+                    <p>Steeve</p>
+                    <span>Founder</span>
+                  </div>
+                  <div>
+                    <img src="./assets/static/media/team2.png" alt="" />
+                    <p>James</p>
+                    <span>Head of marketing</span>
+                  </div>
+                  <div>
+                    <img src="./assets/static/media/team3.png" alt="" />
+                    <p>Jeff</p>
+                    <span>Developer</span>
+                  </div>
+                  <br></br>
                   <div>
                     <img src="./assets/static/media/team1.png" alt="" />
                     <p>Steeve</p>
