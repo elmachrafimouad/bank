@@ -34,15 +34,11 @@ export default function Home() {
               <div className="head-line">
                 <h2 className="tokenomics-title">
                   Play, Earn
-
-
                   <br />
                   and Enjoy
                 </h2>
               </div>
             </div>
-
-
   
             <div className="home">
               <div style={{ height: "5vh" }}>
@@ -89,7 +85,7 @@ export default function Home() {
                 </div>
               </div>
   
-              <div id="team" className="our-team">
+             <div id="team" className="our-team">
                 <div className="head-line">
                   <h1>Our Team</h1>
                 </div>
@@ -109,30 +105,28 @@ export default function Home() {
                     <p>Jeff</p>
                     <span>Developer</span>
                   </div>
-                </div>
-                <br></br>
-                <div className="team-wrapper">
+                  <br></br>
                   <div>
-                    <img src="./assets/static/media/team6.png" alt="" />
+                    <img src="./assets/static/media/team1.png" alt="" />
                     <p>Steeve</p>
                     <span>Founder</span>
                   </div>
                   <div>
-                    <img src="./assets/static/media/team4.png" alt="" />
+                    <img src="./assets/static/media/team2.png" alt="" />
                     <p>James</p>
                     <span>Head of marketing</span>
                   </div>
                   <div>
-                    <img src="./assets/static/media/team5.png" alt="" />
+                    <img src="./assets/static/media/team3.png" alt="" />
                     <p>Jeff</p>
                     <span>Developer</span>
                   </div>
                 </div>
+              </div>
               <div className="container">
                 <div className="section-title-wrapper">
                   <h2 className="section-title">Big vision. Great Features.</h2>
-
-                </div>
+          </div>
                 <div id="tokenomics" className="tokenomics">
                   <div className="head-line">
                     <h1>Tokenomics</h1>
