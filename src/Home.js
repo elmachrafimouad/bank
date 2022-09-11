@@ -820,11 +820,197 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-             <div hidden="" id="faq" className="faq">
-            
-            
-           
-              </div>
+             <div class="btn-group">
+    <div id="chart_div">
+        <div style="position: relative;">
+            <div dir="ltr" style="position: relative; width: 600px; height: 390px;">
+                <div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;" aria-label="A chart.">
+                    <svg width="600" height="390" aria-label="A chart." style="overflow: hidden;">
+                        <defs id="_ABSTRACT_RENDERER_ID_16">
+                            <filter id="_ABSTRACT_RENDERER_ID_17">
+                                <feGaussianBlur in="SourceAlpha" stdDeviation="2"></feGaussianBlur>
+                                <feOffset dx="1" dy="1"></feOffset>
+                                <feComponentTransfer>
+                                    <feFuncA type="linear" slope="0.1"></feFuncA>
+                                </feComponentTransfer>
+                                <feMerge>
+                                    <feMergeNode></feMergeNode>
+                                    <feMergeNode in="SourceGraphic"></feMergeNode>
+                                </feMerge>
+                            </filter>
+                        </defs>
+                        <rect x="0" y="0" width="600" height="390" stroke="none" stroke-width="0" fill="#ffffff"></rect>
+                        <g><text text-anchor="start" x="115" y="52.05" font-family="Arial" font-size="13"
+                                font-weight="bold" stroke="none" stroke-width="0" fill="#000000">My Title</text>
+                            <rect x="115" y="41" width="371" height="13" stroke="none" stroke-width="0" fill-opacity="0"
+                                fill="#ffffff"></rect>
+                        </g>
+                        <g>
+                            <path
+                                d="M301,196L301,76A120,120,0,0,1,324.4108386419354,78.30576635161235L301,196A0,0,0,0,0,301,196"
+                                stroke="#ffffff" stroke-width="1" fill="#3366cc"></path>
+                        </g>
+                        <g>
+                            <path
+                                d="M301,196L324.4108386419354,78.30576635161235A120,120,0,0,1,400.7763534763054,262.66842796235227L301,196A0,0,0,0,0,301,196"
+                                stroke="#ffffff" stroke-width="1" fill="#dc3912"></path><text text-anchor="start"
+                                x="363.2612913522787" y="167.09757780712118" font-family="Arial" font-size="13"
+                                stroke="none" stroke-width="0" fill="#ffffff">31.3%</text>
+                        </g>
+                        <g>
+                            <path
+                                d="M301,196L201.22364652369458,129.33157203764773A120,120,0,0,1,301,76L301,196A0,0,0,0,0,301,196"
+                                stroke="#ffffff" stroke-width="1" fill="#0099c6"></path><text text-anchor="start"
+                                x="239.2621079859117" y="119.65759363848156" font-family="Arial" font-size="13"
+                                stroke="none" stroke-width="0" fill="#ffffff">15.6%</text>
+                        </g>
+                        <g>
+                            <path
+                                d="M301,196L190.13445609864556,150.0779881161893A120,120,0,0,1,201.22364652369458,129.33157203764773L301,196A0,0,0,0,0,301,196"
+                                stroke="#ffffff" stroke-width="1" fill="#990099"></path>
+                        </g>
+                        <g>
+                            <path
+                                d="M301,196L181.25692921136758,188.15162449238287A120,120,0,0,1,190.13445609864556,150.0779881161893L301,196A0,0,0,0,0,301,196"
+                                stroke="#ffffff" stroke-width="1" fill="#109618"></path><text text-anchor="start"
+                                x="197.49806434229015" y="179.91424286836107" font-family="Arial" font-size="13"
+                                stroke="none" stroke-width="0" fill="#ffffff">5.2%</text>
+                        </g>
+                        <g>
+                            <path
+                                d="M301,196L400.7763534763054,262.66842796235227A120,120,0,0,1,181.25692921136758,188.15162449238287L301,196A0,0,0,0,0,301,196"
+                                stroke="#ffffff" stroke-width="1" fill="#ff9900"></path><text text-anchor="start"
+                                x="252.3553746746868" y="289.353202605998" font-family="Arial" font-size="13"
+                                stroke="none" stroke-width="0" fill="#ffffff">41.7%</text>
+                        </g>
+                        <g>
+                            <g>
+                                <g><text text-anchor="end" x="486" y="100.03269468479604" font-family="Arial"
+                                        font-size="13" stroke="none" stroke-width="0" fill="#222222">Marke…</text>
+                                    <rect x="437" y="88.98269468479604" width="49" height="13" stroke="none"
+                                        stroke-width="0" fill-opacity="0" fill="#ffffff"></rect>
+                                </g>
+                                <g><text text-anchor="end" x="486" y="121.06730531520395" font-family="Arial"
+                                        font-size="13" stroke="none" stroke-width="0" fill="#9e9e9e">3.1%</text></g>
+                            </g>
+                            <g>
+                                <path d="M310.5,106.5L434,106.5L434,106.5L486.5,106.5" stroke="#636363" stroke-width="1"
+                                    stroke-opacity="0.7" fill-opacity="1" fill="none"></path>
+                                <circle cx="310.5" cy="106.5" r="2" stroke="none" stroke-width="0" fill-opacity="0.7"
+                                    fill="#636363"></circle>
+                            </g>
+                            <g>
+                                <g><text text-anchor="end" x="486" y="156.03269468479607" font-family="Arial"
+                                        font-size="13" stroke="none" stroke-width="0" fill="#222222">Presale</text></g>
+                                <g><text text-anchor="end" x="486" y="177.06730531520395" font-family="Arial"
+                                        font-size="13" stroke="none" stroke-width="0" fill="#9e9e9e">31.3%</text></g>
+                            </g>
+                            <g>
+                                <path d="M384.5,162.5L434,162.5L434,162.5L486.5,162.5" stroke="#636363" stroke-width="1"
+                                    stroke-opacity="0.7" fill-opacity="1" fill="none"></path>
+                                <circle cx="384.5" cy="162.5" r="2" stroke="none" stroke-width="0" fill-opacity="0.7"
+                                    fill="#636363"></circle>
+                            </g>
+                            <g>
+                                <g><text text-anchor="start" x="115" y="275.03269468479607" font-family="Arial"
+                                        font-size="13" stroke="none" stroke-width="0" fill="#222222">P2E</text></g>
+                                <g><text text-anchor="start" x="115" y="296.06730531520395" font-family="Arial"
+                                        font-size="13" stroke="none" stroke-width="0" fill="#9e9e9e">41.7%</text></g>
+                            </g>
+                            <g>
+                                <path d="M272.5,281.5L168,281.5L168,281.5L115.5,281.5" stroke="#636363" stroke-width="1"
+                                    stroke-opacity="0.7" fill-opacity="1" fill="none"></path>
+                                <circle cx="272.5" cy="281.5" r="2" stroke="none" stroke-width="0" fill-opacity="0.7"
+                                    fill="#636363"></circle>
+                            </g>
+                            <g>
+                                <g><text text-anchor="start" x="115" y="184.03269468479607" font-family="Arial"
+                                        font-size="13" stroke="none" stroke-width="0" fill="#222222">Team</text></g>
+                                <g><text text-anchor="start" x="115" y="205.06730531520395" font-family="Arial"
+                                        font-size="13" stroke="none" stroke-width="0" fill="#9e9e9e">5.2%</text></g>
+                            </g>
+                            <g>
+                                <path d="M213.5,176.5L168,176.5L168,190.5L115.5,190.5" stroke="#636363" stroke-width="1"
+                                    stroke-opacity="0.7" fill-opacity="1" fill="none"></path>
+                                <circle cx="213.5" cy="176.5" r="2" stroke="none" stroke-width="0" fill-opacity="0.7"
+                                    fill="#636363"></circle>
+                            </g>
+                            <g>
+                                <g><text text-anchor="start" x="115" y="143.03269468479607" font-family="Arial"
+                                        font-size="13" stroke="none" stroke-width="0" fill="#222222">Ecosy…</text>
+                                    <rect x="115" y="131.98269468479606" width="48" height="13" stroke="none"
+                                        stroke-width="0" fill-opacity="0" fill="#ffffff"></rect>
+                                </g>
+                                <g><text text-anchor="start" x="115" y="164.06730531520395" font-family="Arial"
+                                        font-size="13" stroke="none" stroke-width="0" fill="#9e9e9e">3.1%</text></g>
+                            </g>
+                            <g>
+                                <path d="M222.5,154.5L168,154.5L168,149.5L115.5,149.5" stroke="#636363" stroke-width="1"
+                                    stroke-opacity="0.7" fill-opacity="1" fill="none"></path>
+                                <circle cx="222.5" cy="154.5" r="2" stroke="none" stroke-width="0" fill-opacity="0.7"
+                                    fill="#636363"></circle>
+                            </g>
+                            <g>
+                                <g><text text-anchor="start" x="115" y="101.03269468479604" font-family="Arial"
+                                        font-size="13" stroke="none" stroke-width="0" fill="#222222">Team</text></g>
+                                <g><text text-anchor="start" x="115" y="122.06730531520395" font-family="Arial"
+                                        font-size="13" stroke="none" stroke-width="0" fill="#9e9e9e">15.6%</text></g>
+                            </g>
+                            <g>
+                                <path d="M279.5,109.5L168,109.5L168,107.5L115.5,107.5" stroke="#636363" stroke-width="1"
+                                    stroke-opacity="0.7" fill-opacity="1" fill="none"></path>
+                                <circle cx="279.5" cy="109.5" r="2" stroke="none" stroke-width="0" fill-opacity="0.7"
+                                    fill="#636363"></circle>
+                            </g>
+                        </g>
+                        <g></g>
+                    </svg>
+                    <div aria-label="A tabular representation of the data in the chart."
+                        style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Task</th>
+                                    <th>Hours per Day</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Marketing</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>Presale</td>
+                                    <td>30</td>
+                                </tr>
+                                <tr>
+                                    <td>P2E</td>
+                                    <td>40</td>
+                                </tr>
+                                <tr>
+                                    <td>Team</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td>Ecosystem</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>Team</td>
+                                    <td>15</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div aria-hidden="true"
+                style="display: none; position: absolute; top: 400px; left: 610px; white-space: nowrap; font-family: Arial; font-size: 13px; font-weight: bold;">
+                40 (41.7%)</div>
+            <div></div>
+        </div>
+    </div>
+</div>
             </div>
             <div className="footer">
               <h1>ShibaPlayer community</h1>
