@@ -126,91 +126,22 @@ export default function Home() {
               <div className="container">
                 <div className="section-title-wrapper">
                   <h2 className="section-title">Big vision. Great Features.</h2>
-          </div>
+</div>
                 <div id="tokenomics" className="tokenomics">
                   <div className="head-line">
-                    <h1>Tokenomics</h1>
+                    <h1>Our Pinksale Distribution</h1>
                   </div>
                   <div className="tokenomics-wrapper">
                     <div className="tokenomic">
                       <img
-                        src="./assets/static/media/2.png"
-                        width={120}
-                        alt=""
-                        className="tokenomics-icon"
+                        src="./assets/static/media/Matrix.png"
+                        
                       />
-                      <div className="features_wrap">
-                        <center>
-                          <h2 className="tokenomics-title">
-                            2% Marketing Wallet
-                          </h2>
-                          <div className="text center nopadd">
-                            2% of every transaction will go the marketing
-                            wallet. This will allow us to continuously grow the
-                            coin and reach more people all over the world
-                          </div>
-                        </center>
-                      </div>
+                      
                     </div>
-                    <div className="tokenomic">
-                      <img
-                        src="./assets/static/media/8.png"
-                        width={120}
-                        alt=""
-                        className="tokenomics-icon"
-                      />
-                      <div className="features_wrap">
-                        <center>
-                          <h2 className="tokenomics-title">
-                            4% Rewards in USDT
-                          </h2>
-                          <div className="text center nopadd">
-                            4% of every buy/sell is taken and redistributed to
-                            all ShibaPlayer&nbsp;holders.
-                            <strong>
-                              Hold $DST tokens, earn $USDT.
-                              <br />
-                            </strong>
-                          </div>
-                        </center>
-                      </div>
-                    </div>
-                    <div className="tokenomic">
-                      <img
-                        src="./assets/static/media/6.png"
-                        width={120}
-                        alt=""
-                        className="tokenomics-icon"
-                      />
-                      <div className="features_wrap">
-                        <center>
-                          <h2 className="tokenomics-title">
-                            2% Buyback Wallet
-                          </h2>
-                          <div className="text center nopadd">
-                            Through our buyback mechanisms we will maintain or
-                            ever increase the value of your $DST permanently
-                          </div>
-                        </center>
-                      </div>
-                    </div>
-                    <div className="tokenomic">
-                      <img
-                        src="./assets/static/media/fees.png"
-                        width={120}
-                        alt=""
-                        className="tokenomics-icon"
-                      />
-                      <div className="features_wrap">
-                        <center>
-                          <h2 className="tokenomics-title">1% Team Fees</h2>
-                          <div className="text center nopadd">
-                            To have more resources in our team and reward team
-                            members.
-                          </div>
-                        </center>
-                      </div>
-                    </div>
+                    
+                  
+                 
                   </div>
                 </div>
               </div>
