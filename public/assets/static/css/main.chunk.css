@@ -100,14 +100,14 @@ code {
 }
 
 .nav-bar {
-  background-color: #26016f;
+  background-color: #1186c4;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  color: #26016f;
+  color: #1186c4;
   /* background: rgba(237, 0, 230, 0.4); */
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
-    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px rgb(235, 159, 8),
+    0 0 82px rgb(240, 151, 9), 0 0 92px rgb(231, 153, 9), 0 0 102px rgb(233, 177, 6), 0 0 151px rgb(198, 128, 16);
 }
 .App h2 {
   display: flex;
