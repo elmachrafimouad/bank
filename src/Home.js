@@ -35,11 +35,11 @@ export default function Home() {
               <br />
               <div className="head-line">
                 <h2 className="tokenomics-title">
-                  Play, Earn
-                
-                
+                  Hold and earn
                   <br />
-                  and Enjoy
+                  to
+                  <br />
+                  Play and earn
                 </h2>
               </div>
             </div>
@@ -49,41 +49,40 @@ export default function Home() {
               </div>
               <div id="about-us" className="about">
                 <div className="about-text">
-                  <br />
-                    <br />
-                  <h1>What is Robber Bank ?</h1>
+                  <h1>What is ShibaPlayer?</h1>
                   <p className="about-text-p">
-                    <strong>Robber Bank </strong>  is the most engaging game in the world, 
-                  combining suspense, action and simplicity. the bank robber is one of the first real 
-                  free to earn based on a solid ecosystem and real algorithm. Do you want to play, 
-                    enjoy and earn but your are not a good gamer?
-                  No problem! the bank robber is the game for everyone, 
-                    a community driven project with the transparency of 
-                  the dev team and their effort.
+                    <strong>ShibaPlayer</strong> is a community of crypto
+                    enthusiasts who want to make NFT much cooler, we are not
+                    just about money, we are also about fun. Be the owner of the
+                    first NFT collection of famous doge star in the metaverse.
+                    Carefully designed by our talented artist which encompasses
+                    between our memes token and metaverse world. The Xxxsmall
+                    size of the NFT collection will allow the value of our
+                    collection to climb faster. Be among the earlier supporters
+                    of the ShibaPlayer and gain access to our Xsmall NFT
+                    collection.
                   </p>
                 </div>
-                <div >
-                    
-                  <br />
-                    <br />
-                    <br />
-                    <br />
-                   
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                  <video width="100%" preload="auto" controls id="idvideo" poster ="poster.png">
+                <div className="about-text">
+                  {/* <img
+                    className="gif-img"
+                    src="./assets/static/media/gif.gif"
+                    alt=""
+                  /> */}
+                  
+                  <div><video width="100%" preload="auto" controls id="idvideo">
                     <source type="video/mp4" src="./assets/static/media/demo.mp4"></source>
+                    <source type="video/ogg" src="./assets/static/media/demo.ogv"></source>
+                    <source type="video/webm" src="./assets/static/media/demo.webm"></source>
                     Votre navigateur ne supporte pas la balise HTML5 video.
                   </video>
+                  </div>
                 </div>
               </div>
               <div id="price" className="price-div">
                 <div style={{ height: 200 }}>
                   <br />
                   <br />
-                  
                   <h1>with doge stars we are all Famous</h1>
                 </div>
               </div>
@@ -108,24 +107,7 @@ export default function Home() {
                     <span>Developer</span>
                   </div>
                 </div>
-                <br></br>
-                <div className="team-wrapper">
-                  <div>
-                    <img src="./assets/static/media/team1.png" alt="" />
-                    <p>Steeve</p>
-                    <span>Founder</span>
-                  </div>
-                  <div>
-                    <img src="./assets/static/media/team2.png" alt="" />
-                    <p>James</p>
-                    <span>Head of marketing</span>
-                  </div>
-                  <div>
-                    <img src="./assets/static/media/team3.png" alt="" />
-                    <p>Jeff</p>
-                    <span>Developer</span>
-                  </div>
-                </div>
+              </div>
               <div className="container">
                 <div className="section-title-wrapper">
                   <h2 className="section-title">Big vision. Great Features.</h2>
