@@ -1,6 +1,5 @@
 import React from "react";
 import NavBar from "./NavBar";
-
 export default function Home() {
   return (
     <React.Fragment>
@@ -12,7 +11,6 @@ export default function Home() {
           <div className="App">
             <div>
               <div className="banner" />
-
               <h1
                 className="side-menu-logo aos-init aos-animate"
                 data-aos="zoom-in"
@@ -36,21 +34,27 @@ export default function Home() {
               <div className="head-line">
                 <h2 className="tokenomics-title">
                   Play, Earn
+
+
                   <br />
-                  And Enjoy
+                  and Enjoy
                 </h2>
               </div>
             </div>
+
+
+  
             <div className="home">
               <div style={{ height: "5vh" }}>
                 <div style={{ margin: "0 0px 5vh" }} />
               </div>
               <div id="about-us" className="about">
-                       <br />
+                <div className="about-text">
+                  <br />
                     <br />
                   <h1>What is Robber Bank ?</h1>
                   <p className="about-text-p">
-                     <strong>Robber Bank </strong>  is the most engaging game in the world, 
+                    <strong>Robber Bank </strong>  is the most engaging game in the world, 
                   combining suspense, action and simplicity. the bank robber is one of the first real 
                   free to earn based on a solid ecosystem and real algorithm. Do you want to play, 
                     enjoy and earn but your are not a good gamer?
@@ -59,7 +63,7 @@ export default function Home() {
                   the dev team and their effort.
                   </p>
                 </div>
-       <div >
+                <div >
 
                   <br />
                     <br />
@@ -72,24 +76,24 @@ export default function Home() {
                     <br />
                   <video width="100%" preload="auto" controls id="idvideo" poster ="poster.png">
                     <source type="video/mp4" src="./assets/static/media/demo.mp4"></source>
-
                     Votre navigateur ne supporte pas la balise HTML5 video.
                   </video>
-
                 </div>
               </div>
               <div id="price" className="price-div">
                 <div style={{ height: 200 }}>
                   <br />
                   <br />
+
                   <h1>with doge stars we are all Famous</h1>
                 </div>
               </div>
+  
               <div id="team" className="our-team">
                 <div className="head-line">
                   <h1>Our Team</h1>
                 </div>
-                                <div className="team-wrapper">
+                <div className="team-wrapper">
                   <div>
                     <img src="./assets/static/media/team1.png" alt="" />
                     <p>Steeve</p>
@@ -105,7 +109,9 @@ export default function Home() {
                     <p>Jeff</p>
                     <span>Developer</span>
                   </div>
-                  <br></br>
+                </div>
+                <br></br>
+                <div className="team-wrapper">
                   <div>
                     <img src="./assets/static/media/team6.png" alt="" />
                     <p>Steeve</p>
@@ -122,10 +128,10 @@ export default function Home() {
                     <span>Developer</span>
                   </div>
                 </div>
-              </div>
               <div className="container">
                 <div className="section-title-wrapper">
                   <h2 className="section-title">Big vision. Great Features.</h2>
+
                 </div>
                 <div id="tokenomics" className="tokenomics">
                   <div className="head-line">
