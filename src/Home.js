@@ -133,10 +133,7 @@ export default function Home() {
                   </div>
                   <div className="tokenomics-wrapper">
                     <div className="tokenomic">
-                      <img
-                        src="./assets/static/media/Matrix.png"
-                        
-                      />
+                      <img src="./assets/static/media/Matrix.png"  alt="Matrix" />
                       
                     </div>
                     
